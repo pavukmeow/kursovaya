@@ -1,0 +1,54 @@
+html {
+    font-size: calc(100vw / 1920 * 10);
+  }
+body{
+    background: rgb(219, 196, 241);
+}
+.section.active{
+    display: block;
+}
+.png-image{
+    position: relative;
+}
+.slide1-text{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: #cfb8ca;
+    font-size: 90px;
+    position: absolute;
+    left: 18%;
+    bottom: 50%;
+    width: 100%;
+}
+.fp-controlArrow.fp-prev{
+    border-color: transparent #cfb8ca transparent transparent;
+}
+.fp-controlArrow.fp-next{
+    border-color: transparent transparent transparent #cfb8ca;
+}
+.slide2{
+    background: #927a91;
+}
+.section2{
+    background: #577ea0;
+}
+.demo-1__gallery {
+    height: 295rem;
+    position: relative;
+    visibility: hidden;
+  }
+  
+  .tilt-effect{
+        height: 200px !important;
+        border: 1px solid #000;
+  }
+
+  .grid__img{
+      height: 350px;
+      width: 400px;
+  }
+.page_1{
+    display: flex;
+    justify-content: space-between;
+}
+  
